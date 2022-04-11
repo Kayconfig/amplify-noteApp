@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sandboxfresh-dev-223407-authRole",
+      "UnauthRoleArn": "arn:aws:iam::501425897341:role/amplify-sandboxfresh-dev-223407-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::501425897341:role/amplify-sandboxfresh-dev-223407-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-sandboxfresh-dev-223407-deployment",
+      "UnauthRoleName": "amplify-sandboxfresh-dev-223407-unauthRole",
+      "StackName": "amplify-sandboxfresh-dev-223407",
+      "StackId": "arn:aws:cloudformation:us-west-1:501425897341:stack/amplify-sandboxfresh-dev-223407/f7b46810-b915-11ec-8642-02ae0f185fd5",
+      "AmplifyAppId": "dx2j6bzveqhjt"
+    },
+    "categories": {
+      "auth": {
+        "sandboxfreshbf559cdabf559cda": {}
+      }
+    }
+  }
+}

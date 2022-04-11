@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "sandboxfresh",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/e/Desktop/sandbox/awsAmplifyTutorial/frontend/amplify/backend/api/sandboxfresh/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authsandboxfreshbf559cdabf559cda"
+    }
+  }
+}
