@@ -4,13 +4,13 @@ import { Amplify, API, graphqlOperation } from 'aws-amplify';
 import awsExport from './aws-exports';
 import '@aws-amplify/ui-react/styles.css';
 import { listNotes } from './graphql/queries';
-import { createNotes, deleteNotes, updateNotes } from './graphql/mutations';
+import { deleteNotes } from './graphql/mutations';
 import {
   onCreateNotes,
   onDeleteNotes,
   onUpdateNotes,
 } from './graphql/subscriptions';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 
 import { NoteForm } from './components/Form';
 import { Header } from './components/Header';

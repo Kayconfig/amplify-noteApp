@@ -1,8 +1,6 @@
-import { listNotes } from '../graphql/queries';
-import { createNotes, deleteNotes, updateNotes } from '../graphql/mutations';
-import { Amplify, API, graphqlOperation } from 'aws-amplify';
-import { onCreateNotes } from '../graphql/subscriptions';
-import { useState, useEffect, useMemo } from 'react';
+import { createNotes, updateNotes } from '../graphql/mutations';
+import { API, graphqlOperation } from 'aws-amplify';
+import { useMemo } from 'react';
 
 export function NoteForm({ state, setState, id }) {
   const handleSubmit = async (event) => {
