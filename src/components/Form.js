@@ -7,6 +7,10 @@ import { useState, useEffect, useMemo } from 'react';
 export function NoteForm({ state, setState, id }) {
   const handleSubmit = async (event) => {
     event.preventDefault();
+    if (!state.note) {
+      alert('Field cannot be empty!');
+      return;
+    }
     const dataToSubmit = { content: state.note };
     //add id if the id is supplied ( implying an update)
     if (id) dataToSubmit.id = id;

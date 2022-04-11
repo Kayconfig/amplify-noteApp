@@ -4,7 +4,7 @@ export function NoteList({ notes, handleDelete }) {
   return (
     <div>
       {notes.map((item) => (
-        <NoteItem item={item} handleDelete={handleDelete} />
+        <NoteItem item={item} handleDelete={handleDelete} key={item.id} />
       ))}
     </div>
   );
